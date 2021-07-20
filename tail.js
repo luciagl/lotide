@@ -10,16 +10,16 @@ const assertEqual = function(actual, expected) {
   } else {
     result = '!==';
     emo = '🛑🛑🛑';
-    str = 'Failed'
+    str = 'Failed';
   }
   
   console.log(`${emo} Assertion ${str}: ${actual} ${result} ${expected}`);
 };
 
 const words = ["Yo Yo", "Lighthouse", "Labs"];
-const tail = function(words) { 
+const tail = function(words) {
   let result = words.slice(1);
   return result;
-}
+};
 
-assertEqual(tail(words).length, 2); 
+assertEqual(tail(words).length, 2);

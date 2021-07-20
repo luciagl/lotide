@@ -10,7 +10,7 @@ const assertEqual = function(actual, expected) {
   } else {
     result = '!==';
     emo = '🛑🛑🛑';
-    str = 'Failed'
+    str = 'Failed';
   }
   
   console.log(`${emo} Assertion ${str}: ${actual} ${result} ${expected}`);
