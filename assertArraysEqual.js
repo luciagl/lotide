@@ -16,6 +16,6 @@ const assertArraysEqual = function(par1, par2) {
   } else {
     console.log('✅✅✅ Assertion passed: arrays are equal');
   }
-}
+};
 
 console.log(assertArraysEqual([1, 2, 3], [1, 2, 4]));
