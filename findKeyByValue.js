@@ -21,7 +21,6 @@ const findKeyByValue = function(obj, val) {
     if (obj[i] === val) {
       result = i;
     } else {
-      console.log('fgdg');
       result = undefined;
     }
   }
