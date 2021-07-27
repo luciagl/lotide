@@ -30,5 +30,7 @@ const countLetters = function(str) {
 }
 
 
-console.log(countLetters("l i l "));
-console.log(countLetters("lighthouse in the house"));
+//console.log(countLetters("l i l "));
+//console.log(countLetters("lighthouse in the house"));
+
+module.exports = countLetters;
